@@ -8,12 +8,21 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  padding: 0;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -25,4 +34,29 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  max-width: 250px;
 }
+
+.content {
+  display: flex;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+
+
+a {
+  text-decoration: none;
+}
+
